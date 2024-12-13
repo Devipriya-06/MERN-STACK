@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="" method="post" target="_blank">
+       
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="first-name"><b>First Name:</b></label><br>
+            <input type="text" id="first-name" name="first-name" ><br><br>
+
+            <label for="last-name"><b>Last Name:</b></label><br>
+            <input type="text" id="last-name" name="last-name"><br><br>
+
+            <label for="email"><b>Email:</b></label><br>
+            <input type="email" id="email" name="email" ><br><br>
+
+            <label for="dob"><b>Date of Birth:</b></label><br>
+            <input type="date" id="dob" name="dob" ><br><br>
+
+            <label><b>Gender:</b></label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label>
+        <br>
+        <br>
+        <label for="njb"><b>Branch:</b></label>
+    <input list="branch" name="branch">
+    <datalist id="branch">
+        <option value="CSD">
+        <option value="CSM">
+        <option value="CSE">
+        <option value="ECE">
+        <option value="EEE">
+      </datalist>
+<br>
+<br>
+        
+            <label for="language"><b>Preferred Language:</b></label>
+            <select id="language" name="language" >
+                <option value="English">English</option>
+                <option value="tel">Telugu</option>
+                <option value="hin">Hindi</option>
+                <option value="others">Others</option>
+            </select><br><br>
+
+            <label><b>Hobbies:</b></label><br>
+            <input type="checkbox" id="hobby1" name="hobbies" value="Reading">
+            <label for="hobby1">Reading</label><br>
+            <input type="checkbox" id="hobby2" name="hobbies" value="Traveling">
+            <label for="hobby2">Traveling</label><br>
+            <input type="checkbox" id="hobby3" name="hobbies" value="Sports">
+            <label for="hobby3">Sports</label><br>
+            <input type="checkbox" id="hobby4" name="hobbies" value="Music">
+            <label for="hobby4">Music</label><br><br>
+
+
+            <label for=""><b>Choose a course:</b></label>
+      <select name="" id="">
+        <optgroup label="Languages">
+          <option value="">C</option>
+          <option value="">C++</option>
+          <option value="">python</option>
+          <option value="">java</option>
+        </optgroup>
+
+        <optgroup label="Frontend">
+          <option value="">HTML</option>
+          <option value="">CSS</option>
+          <option value="">JS</option>
+        </optgroup>
+        <optgroup label="Frameworks">
+            <option value="">react</option>
+            <option value="">express</option>
+            <option value="">node</option>
+            <option value="">mongo.db</option>
+          </optgroup>
+      </select>
+    </fieldset><br>
+
+        <fieldset>
+            <legend><b>Feedback</b></legend>
+            <textarea id="comments" name="comments" rows="4" cols="50">comments here...</textarea><br><br>
+        </fieldset>
+        <br>
+       
+           
+        
+    
+        
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
